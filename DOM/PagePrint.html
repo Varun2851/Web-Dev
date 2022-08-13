@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+		<div id = "div1">
+			Div one contant is here
+			<button oneclick = "myfun('div1')">div1</button>
+		</div>
+
+		<div id = "div2">
+			Div one contant is here
+			<button oneclick ="myfun('div2')">div2</button>
+		</div>
+
+		<div id = "div3">
+			Div one contant is here
+			<button oneclick = "myfun('div3')">div3</button>
+		</div>
+
+		<button onclick = "mywholepage()">wholepage</button>
+
+		<script type="text/javascript">
+			function mywholepage(){
+				window.print();
+			}
+
+			function myfun(paravalue){
+				var backup = document.body.innerHTML;
+				var divcontent = document.getElementById(paravalue).innerHTML;
+				document.body.innerHTML = divcontent;
+				window.print();
+				document.body.innerHTML = backup;
+			}
+		</script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+/*.red{
+	height: 100px;
+	width: 100px;
+	background-color: red; 
+	display: inline-block;
+	position: relative;
+	left: 200px;
+
+}
+.blue{
+	height: 100px;
+	width: 100px;
+	background-color: blue;
+	display: inline-block;
+	position: relative;
+	right: 100px;
+	
+}
+.Yellow{
+	height: 100px;
+	width: 100px;
+	background-color: yellow;
+	display: inline-block;
+	position: relative;
+	right: 100px;
+	
+}
+.green{
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	background-color: green;
+
+
+}
+
+.Orange{
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	background-color: orange;
+	position: absolute;
+	right: 100px;
+}*/
+
+/* Absolute Positioning */
+
+.red{
+	height: 100px;
+	width: 100px;
+	background-color: red;
+	position: absolute;
+	left: 200px;
+	top: 200px;
+	
+	
+	
+
+}
+
+.blue{
+	height: 100px;
+	width: 100px;
+	background-color: blue;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	
+
+}
+
+.Orange{
+	height: 100px;
+	width: 100px;
+	background-color: orange;
+	position: absolute;
+	left: 2px;
+	top: 1px;
+}
+ 

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<p id = "thapa">Varun</p>
+	<p class = "welcome">Yadav</p>
+	<p class = "welcome">Yadav1</p>
+
+	<!-- how to access elements using id -->
+	<script type="text/javascript">
+		var a = document.getElementById("thapa").innerHTML;
+		document.write(a);
+	</script>
+
+	<!-- how to access elements using class -->
+	<script type="text/javascript">
+		var b = document.getElementByClassName("welcome")[1].innerHTML;
+		document.write(b);
+	</script>
+
+	<!-- how to access elements by tag name  -->
+
+	<script type="text/javascript">
+		var tag = document.getElementByTagName("p");
+		document.write(tag);
+	</script>
+
+	<script type="text/javascript">
+		var p = document.querySelector('p').innerHTML;
+		document.write(p);
+	</script>
+
+</body>
+</html>
